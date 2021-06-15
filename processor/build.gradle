@@ -1,0 +1,23 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm'
+    id "org.jetbrains.kotlin.plugin.jpa"
+    id "org.jetbrains.kotlin.kapt"
+    id 'java-library'
+    id 'maven-publish'
+}
+
+dependencies {
+    implementation platform('org.jetbrains.kotlin:kotlin-bom')
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
+    implementation 'org.jetbrains.kotlin:kotlin-reflect'
+
+    implementation 'io.prometheus:simpleclient:0.10.0'
+
+    implementation 'com.squareup:kotlinpoet:1.8.0'
+
+    implementation "com.google.auto.service:auto-service:${autoserviceVersion}"
+    kapt "com.google.auto.service:auto-service:${autoserviceVersion}"
+}
+
+group = "com.doordash_oss.metricsprocessor"
+version = "2.0.0"
