@@ -1,5 +1,5 @@
 # MetricsProcessor
-An annotation processor to make Prometheus metrics easier to use in Java.
+An annotation processor to make Prometheus metrics easier to use in Kotlin.
 
 # How to use
 Under the plugins section add kapt:
