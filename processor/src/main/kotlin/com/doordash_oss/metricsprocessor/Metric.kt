@@ -17,9 +17,6 @@ object MetricType {
     const val Histogram = "Histogram"
 }
 
-@MetaOpen
-@Retention(AnnotationRetention.RUNTIME)
-@Target(AnnotationTarget.CLASS)
 annotation class Metric(
     val type: String,
     val name: String = "",
