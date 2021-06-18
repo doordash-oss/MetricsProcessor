@@ -3,6 +3,6 @@ Copyright 2021 Doordash, Inc
 
 Built on Google Auto (https://github.com/google/auto) Copyright 2013 Google
 
-Built on Kotlin Poet (https://github.com/square/kotlinpoet) Copyright 2017 Square, Inc.
+Built on KotlinPoet (https://github.com/square/kotlinpoet) Copyright 2017 Square, Inc.
 
-Built on Prometheus (https://github.com/prometheus/client_java) Copyright 2012-2015 The Prometheus Authors
+Built on Prometheus JVM Client (https://github.com/prometheus/client_java) Copyright 2012-2015 The Prometheus Authors
